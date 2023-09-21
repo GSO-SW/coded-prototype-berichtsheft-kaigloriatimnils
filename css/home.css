@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.homecontainer {
+    margin-top: 20%;
+}
+.loginorregister {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 40%;
+
+}
+.login {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: #007acc; */
+}
+.register {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
