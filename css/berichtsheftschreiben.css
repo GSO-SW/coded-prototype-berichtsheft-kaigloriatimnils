@@ -13,6 +13,13 @@
 }
 .infos {
     display: flex;
+    gap: 1rem;
+}
+.date {
+    right: 0;
+}
+.date p{
+    text-align: right;
 }
 .abteilungsselect {
     width: 8rem;
