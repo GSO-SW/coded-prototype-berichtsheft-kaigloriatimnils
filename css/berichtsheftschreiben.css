@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.homecontainer {
+    margin-top: 10%;
+}
+.header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.infos {
+    display: flex;
+}
+.abteilungsselect {
+    width: 8rem;
+}
+.weekdays {
+    overflow-y: scroll;
+    height: 400px;
+}
+.textfield {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+}
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
