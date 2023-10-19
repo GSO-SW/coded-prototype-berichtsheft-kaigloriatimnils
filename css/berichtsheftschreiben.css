@@ -14,9 +14,13 @@
 .infos {
     display: flex;
     gap: 1rem;
+    /* align-items: center; */
 }
 .date {
-    right: 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    /* justify-content: center; */
 }
 .date p{
     text-align: right;
@@ -27,6 +31,7 @@
 .weekdays {
     overflow-y: scroll;
     height: 400px;
+    padding-right: 0.25rem;
 }
 .textfield {
     margin-top: 1rem;
