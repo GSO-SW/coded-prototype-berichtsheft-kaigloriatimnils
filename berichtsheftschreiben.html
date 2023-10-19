@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berichtsheft Bearbeiten</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/berichtsheftschreiben.css">
+</head>
+<body>
+    <div class="container">
+        <div class="homecontainer">
+            <div class="header">
+                <h1>Berichtsheft</h1>
+            </div>
+            <div class="edit">
+                <div class="infos">
+                    <div class="form-group">
+                        <select id="inputState" class="form-control abteilungsselect">
+                            <option selected>Abteilung 1</option>
+                            <option>Abteilung 2</option>
+                            <option>Abteilung 3</option>
+                        </select>
+                    </div>
+                    <div class="date"><time>Datum: 20.09.5034</time></div>
+                </div>
+                <form action="">
+                    <div class="weekdays">
+                        <div class="textfield">
+                            <label>Montag:</label>
+                            <textarea class="form-control" name="montag" id="montag"></textarea>
+                        </div>
+                        <div class="textfield">
+                            <label>Dienstag:</label>
+                            <textarea class="form-control" name="dienstag" id="dienstag"></textarea>
+                        </div>
+                        <div class="textfield">
+                            <label>Mitwoch:</label>
+                            <textarea class="form-control" name="mitwoch" id="mitwoch"></textarea>
+                        </div>
+                        <div class="textfield">
+                            <label>Donnerstag:</label>
+                            <textarea class="form-control" name="donnerstag" id="donnerstag"></textarea>
+                        </div>
+                        <div class="textfield">
+                            <label>Freitag:</label>
+                            <textarea class="form-control" name="freitag" id="freitag"></textarea>
+                        </div>
+                        <div class="textfield">
+                            <label>Samstag:</label>
+                            <textarea class="form-control" name="samstag" id="samstag"></textarea>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="cancel" class="btn btn-primary" 
+                            onclick="window.location.href='list.html';">Abbrechen</button>
+                        <button id="save" type="submit" class="btn btn-primary" 
+                            onclick="window.location.href='list.html';">Speichern</button>
+                        <button id="sign" type="submit" class="btn btn-primary" 
+                            onclick="window.location.href='list.html';">Signieren</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
