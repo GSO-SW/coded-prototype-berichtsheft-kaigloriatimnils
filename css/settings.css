@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.setcontainer {
+    margin-top: 20%;
+}
+.settings {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 40%;
+
+}
+.overbutton {
+    margin: 1rem;
+    display: flex;
+    justify-content: left;
+}
+.outbutton {
+    margin: 1rem;
+    display: flex;
+    justify-content: right;
+}
