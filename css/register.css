@@ -13,11 +13,10 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    margin-top: 40%;
-
+    margin-top: 10%;
 }
 .button {
-    margin: 1rem;
+    margin-top: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
