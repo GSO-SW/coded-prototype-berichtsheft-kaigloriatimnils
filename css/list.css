@@ -1,0 +1,37 @@
+.container {
+    width: 70vw;
+    height: 85vw;
+    display: block;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+}
+.tabellenachweise {
+    margin-top: 1rem;
+}
+.nachweis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    margin: .3rem;
+    border: 1px solid rgba(255, 255, 255, 0.518);
+    border-radius: 7px;
+}
+.rightcon {
+    display: flex;
+    gap: 2rem;
+}
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}

@@ -1,5 +1,4 @@
 .container {
-    /* border: rgb(119, 118, 118) 1px solid; */
     width: 70vw;
     height: 85vw;
     display: block;
@@ -35,6 +34,7 @@
 .status-container:hover {
     /* transition: 2s; */
     background-color: #806d9c;
+    cursor: pointer;
 }
 .status-container p {
     padding-top: 0.5rem;
