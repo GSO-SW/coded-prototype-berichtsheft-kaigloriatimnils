@@ -1,0 +1,34 @@
+.container {
+    border: rgb(119, 118, 118) 1px solid;
+    width: 70vw;
+    height: 85vw;
+    display: block;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+}
+.status {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 3rem;
+}
+.status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    background-color: rgb(171, 81, 171);
+    height: 10rem;
+    border-radius: 10px;
+}
+.status-container:hover {
+    background-color: ;
+}
