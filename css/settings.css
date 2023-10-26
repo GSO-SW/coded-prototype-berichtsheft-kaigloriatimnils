@@ -1,28 +1,46 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
+    width: 70vw;
+    height: 85vw;
+    display: block;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    
 }
-.setcontainer {
-    margin-top: 20%;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
 }
 .settings {
     display: block;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-top: 40%;
-
-}
-.overbutton {
     margin: 1rem;
-    display: flex;
-    justify-content: left;
 }
-.outbutton {
-    margin: 1rem;
+.personal {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.518);
+    padding: 4%;
+    border-radius: .5rem;
+}
+.side {
+    margin-left: 2%
+}
+h3 {
+    text-decoration: underline;
+}
+.other {
     display: flex;
-    justify-content: right;
+    margin-top: 5%;
+}
+.othercon {
+    display: flex;
+    margin: 2%;
+    border: 1px solid rgba(255, 255, 255, 0.518);
+    padding: 10%;
+    border-radius: .5rem;
 }

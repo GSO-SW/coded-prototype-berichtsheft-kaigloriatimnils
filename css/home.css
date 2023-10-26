@@ -4,19 +4,26 @@
     justify-content: center;
     margin-left: auto;
 }
-.regcontainer {
+.homecontainer {
     margin-top: 20%;
 }
-.register {
+.loginorregister {
     display: block;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    margin-top: 10%;
+    margin-top: 40%;
+
 }
-.button {
-    margin-top: 2rem;
+.login {
+    margin: 1rem;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    /* background-color: #007acc; */
+}
+.register {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
 }

@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/basic.css">
     <link rel="stylesheet" href="/css/settings.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <div class="setcontainer">
-            <div class="overbutton">
-                <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='/main.html';">Übersicht</button>
-            </div>
-            <div class="outbutton">
-                <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='/home.html';">Logout</button>
-            </div>
-            <div class="header">
-                <h1>Einstellungen</h1>
+            <div class="nav">
+                <div class="overbutton">
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='/main.html';">Übersicht</button>
+                </div>
+                <div class="outbutton">
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='/home.html';">Logout</button>
+                </div>
             </div>
             <div class="settings">
-                <label for:"personal">Persönliche Daten::</label>
-                <br>
-                <textarea id="personal" rows="1"></textarea>
-                <br>
-                <label for:"reminder">Erinnerungen:</label>
-                <br>
-                <textarea id="reminder" rows="1"></textarea>
-                <br>
-                <label for:"premade">Vorlagen:</label>
-                <br>
-                <textarea id="premade" rows="1"></textarea>
-                <br>
+                <div class="header">
+                    <h1>Einstellungen</h1>
+                </div>
+                <div class="personal">
+                    <h3>Persönliche Daten:</h3>
+                    <div class="side">
+                        <p>Name: Tom Scherer</p>
+                        <p>Geburtstag: <time>20.10.2005</time></p>
+                        <p>Adresse: Sosstr. 1, 50849 Köln</p>
+                        <p>Ausbildungsbeginn: <time>01.09.2021</time></p>
+                        <p>Ausbildungsende: <time>01.09.2024</time></p>
+                    </div>
+                    
+                </div>
+                <div class="other">
+                    <div class="othercon reminder">
+                        Erinnerung verwalten
+                    </div>
+                    <div class="othercon activity">
+                        Tätigkeitsvorlage verwalten
+                    </div>
+                </div>
             </div>
         </div>
     </div>
