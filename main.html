@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berichte</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <button 
+                class="btn btn-primary" 
+                onclick="window.location.href='settings.html';">
+                Einstellungen
+            </button>
+            <button 
+                class="btn btn-primary" 
+                onclick="window.location.href='home.html';">
+                Logout
+            </button>
+        </div>
+        <div class="status">
+            <div class="done status-container" onclick="window.location.href='./list.html'">
+                <h4>Fertig</h4>
+                <p>34</p>
+            </div>
+            <div class="todo status-container" onclick="window.location.href='./list.html'">
+                <h4>To Do</h4>
+                <p>2</p>
+            </div>
+            <div class="all status-container" onclick="window.location.href='./list.html'">
+                <h4>Alle</h4>
+                <p>36</p>
+            </div>
+            <div class="denied status-container" onclick="window.location.href='./list.html'">
+                <h4>Abgelehnt</h4>
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
