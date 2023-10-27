@@ -11,100 +11,35 @@
 <body>
     <div class="container">
         <div class="setcontainer">
-            <div class="nav">
-                <div class="overbutton">
+            <div class="row">
+                <div class="col-md-6">
                     <button type="button" class="btn btn-primary" onclick="window.location.href='/main.html';">Übersicht</button>
                 </div>
-                <div class="outbutton">
+                <div class="col-md-6">
                     <button type="button" class="btn btn-primary" onclick="window.location.href='/home.html';">Logout</button>
                 </div>
             </div>
             <h1>Alle Nachweise:</h1>
-            <div class="tabellenachweise">
-                <div class="nachweis">
-                    <div class="week">1. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">2. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">3. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">4. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">5. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">6. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">7. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Done</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">8. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Abgelehnt</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">9. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Signed</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">1. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Signed</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">10. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Offen</div>
-                    </div>
-                </div>
-                <div class="nachweis">
-                    <div class="week">11. KW</div>
-                    <div class="rightcon">
-                        <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
-                        <div class="status">Offen</div>
-                    </div>
-                </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Woche</th>
+                            <th>Aktion</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1. KW</td>
+                            <td>
+                                <button type="button" class="btn btn-secondary" onclick="window.location.href='./berichtsheftschreiben.html'">Bearbeiten</button>
+                            </td>
+                            <td>Done</td>
+                        </tr>
+                        <!-- Repeat this block for other weeks -->
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
