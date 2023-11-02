@@ -1,45 +1,139 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    .container {
+        display: none;
+    }
+    .containermobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+    .homecontainer {
+        margin-top: 10%;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .infos {
+        display: flex;
+        gap: 1rem;
+        /* align-items: center; */
+    }
+    .date {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+        /* justify-content: center; */
+    }
+    .date p{
+        text-align: right;
+    }
+    .abteilungsselect {
+        width: 8rem;
+    }
+    .weekdays {
+        overflow-y: scroll;
+        height: 400px;
+        padding-right: 0.25rem;
+    }
+    .textfield {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+    }
+    .buttons {
+        margin-top: 1rem;
+        display: flex;
+        gap: 10px;
+    }
 }
-.homecontainer {
-    margin-top: 10%;
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+    .containermobile {
+        display: none;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+    .homecontainer {
+        margin-top: 1%;
+        /* margin: 4rem; */
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+        width: 100%;
+    }
+    .under {
+        margin: 2rem;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .infos {
+        display: flex;
+        gap: 1rem;
+        /* align-items: center; */
+    }
+    .date {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+        /* justify-content: center; */
+    }
+    .date p{
+        text-align: right;
+    }
+    .abteilungsselect {
+        width: 8rem;
+    }
+    .weekdays {
+        overflow-y: scroll;
+        height: 58vw;
+        padding-right: 0.25rem;
+        display: block;
+    }
+    .textfield {
+        display: flex;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.518);
+        
+    }
+    .textfield p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        border: 3px solid rgba(255, 255, 255, 0.758);
+        padding: 3rem;
+        border-radius: 20px;
+        width: auto;
+    }
+    .textfield textarea {
+        height: 17vh;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        display: flex;
+        gap: 10px;
+    }
 }
-.header {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-.infos {
-    display: flex;
-    gap: 1rem;
-    /* align-items: center; */
-}
-.date {
-    display: flex;
-    margin-left: auto;
-    margin-right: 0;
-    /* justify-content: center; */
-}
-.date p{
-    text-align: right;
-}
-.abteilungsselect {
-    width: 8rem;
-}
-.weekdays {
-    overflow-y: scroll;
-    height: 400px;
-    padding-right: 0.25rem;
-}
-.textfield {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.518);
-}
-.buttons {
-    margin-top: 1rem;
-    display: flex;
-    gap: 10px;
-}
+
+
